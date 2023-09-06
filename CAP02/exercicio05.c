@@ -1,4 +1,4 @@
-// Exerc�cio 05 - Criar um programa em linguagem C que converta um n�mero decimal de 0 a 15 em n�mero bin�rio.
+// Exercicio 05 - Criar um programa em linguagem C que converta um numero decimal de 0 a 15 em numero binario.
 
 #include<stdio.h>
 #include<windows.h>

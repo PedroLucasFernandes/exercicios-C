@@ -1,4 +1,4 @@
-// Exercício 03 - Criar um programa em linguagem C que converta sua idade em meses, semanas, dias, horas, minutos e segundos. 
+// Exercicio 03 - Criar um programa em linguagem C que converta sua idade em meses, semanas, dias, horas, minutos e segundos. 
 
 #include<stdio.h> 
 #include<windows.h> 

@@ -1,4 +1,4 @@
-// Exercício 02 - Criar um programa em linguagem C que resolva a fórmula de Bhaskara. 
+// Exercicio 02 - Criar um programa em linguagem C que resolva a formula de Bhaskara. 
 
 #include<stdio.h> 
 #include<windows.h> 

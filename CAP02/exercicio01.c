@@ -1,4 +1,4 @@
-// Exerc�cio 01 - Criar um programa em linguagem C que efetue a soma de dois n�meros dos tipo real. 
+// Exercicio 01 - Criar um programa em linguagem C que efetue a soma de dois numeros dos tipo real. 
 #include<stdio.h>
 #include<windows.h>
 #include<math.h>

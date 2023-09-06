@@ -1,4 +1,4 @@
-// Exercício 04 - Criar um programa em linguagem C que faça a conversão de m em km, hm, dam, dc, cm e mm. 
+// Exercicio 04 - Criar um programa em linguagem C que faça a conversao de m em km, hm, dam, dc, cm e mm. 
 
 #include<stdio.h>
 #include<windows.h>
