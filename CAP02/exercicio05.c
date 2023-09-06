@@ -1,29 +1,25 @@
-// Exercício 05 - Criar um programa em linguagem C que converta um número decimal de 0 a 15 em número binário.
+// Exercï¿½cio 05 - Criar um programa em linguagem C que converta um nï¿½mero decimal de 0 a 15 em nï¿½mero binï¿½rio.
 
 #include<stdio.h>
 #include<windows.h>
 #include<math.h>
 
-main (){
+int main() {
 
 	system("cls"); 
-	
-	int decimal, bin1, bin2, bin3, bin4;
-	
+
+	int decimal, vet_bin[4], i=0, j;
+
 	printf("Insira um numero entre 0 e 15: \n");
 	scanf("%d", &decimal);
-	
-	bin1 = decimal % 2;
-	decimal = floor(decimal / 2);
-	
-	bin2 = decimal % 2;
-	decimal = floor(decimal / 2);
-	
-	bin3 = decimal % 2;
-	decimal = floor(decimal / 2);
-	
-	bin4 = decimal % 2;
-	decimal = floor(decimal / 2);
-	
-	printf("Segue o valor em binario: %d%d%d%d", bin4, bin3, bin2, bin1);
+
+	while(decimal > 0) {
+		vet_bin[i] = decimal % 2;
+		i++; decimal /= 2;
+	}
+
+	for(j = i-1; j >= 0; j--)
+		printf("%d", vet_bin[j]);
+
+	return 0;
 }
